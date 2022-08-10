@@ -1,7 +1,7 @@
 package br.com.design.pattern.bridge;
 
 public class GeometricForm {
-    private String name;
+    private final String name;
 
     public GeometricForm(String name) {
         this.name = name;
